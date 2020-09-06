@@ -1,0 +1,49 @@
+a {
+    cursor: pointer;
+}
+.launch-icon {
+    width: 50px;
+    border-radius: 5px;
+}
+button{
+    margin-bottom: 10px;
+}
+.toggles .btn:not(.selected),
+.toggles img:not(.selected) {
+    opacity: .4;
+}
+.logo {
+    width:300px;
+    height: auto;
+    margin-top:40px;
+    display: inline;
+}
+
+.title {
+    color: #6d6e71;
+    font-size: 1.5em;
+}
+
+.marginTop {
+    margin-top: 40px;
+}
+
+.marginBottom {
+    margin-bottom: 40px;
+}
+
+
+.top {
+    position: absolute;
+    top: 60px;
+}
+
+.toggles {
+    display: inline;
+    margin: 20px;
+}
+
+.demo {
+    display: inline;
+
+}
