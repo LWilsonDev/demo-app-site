@@ -223,7 +223,7 @@ function selectLanguage(language) {
 }
 function updateIframeSrcUrl() {
   var url =
-    "https://appetize.io/embed/7ww0v3ke017gfwbr2we4trp7c0?device=nexus5&orientation=portrait&osVersion=8.1" +
+    "https://appetize.io/embed/7ww0v3ke017gfwbr2we4trp7c0?device=nexus5&orientation=portrait&scale=100&osVersion=8.1" +
     launchPageConfig.options.hidePasswords;
   $("#app_iframe").attr("src", url);
   iframe = document.querySelector("iframe");
